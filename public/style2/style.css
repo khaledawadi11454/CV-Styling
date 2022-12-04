@@ -1,0 +1,43 @@
+ *{
+    padding: 10px;
+    margin: 10px;
+ }
+ #competencies , #experiences , #education , #hobbies{
+    display: flex;
+}
+.skills-primary{
+    display: flex;
+}
+.skills-secondary{
+    display: flex;
+   
+}
+#about > p{
+    border-left: 1px solid gray;
+}
+ #Competencies>.skills-primary{
+    border-left: 2px solid gray;
+}
+
+#about> p{
+border-top: 1px solid gray;
+}
+header > div{
+    display: flex;
+    width: 100%;
+}
+figure{
+    float: right;
+}
+/*.skills-primary .skills-secondary{
+    flex-direction: column;
+}
+.skills{
+    flex-direction: column;
+}
+.skill{
+    display: flex;
+}*/
+.experience{
+    display: inline-block;
+}
