@@ -15,17 +15,6 @@ header {
   margin-bottom: 100px;
 }
 
-/*header::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  background-color: #ccc;
-  top: 90px;
-  right: 0;
-  z-index: -1;
-}*/
-
 header div {
   display: flex;
 }
@@ -98,7 +87,6 @@ header h2 {
 }
 
 #competencies .skills-secondary .skill {
-  /* transform: scale(.9); */
   font-size: 12px;
 }
 
@@ -129,8 +117,6 @@ header h2 {
 
 #experiences {
   display: grid;
-  /*grid-template-columns: min-content auto;
-  grid-template-rows: repeat(2, auto);*/
   margin-bottom: 40px;
 }
 
@@ -147,8 +133,6 @@ header h2 {
 
 #education {
   display: grid;
-  /*grid-template-columns: min-content auto;
-  grid-template-rows: repeat(2, auto);*/
 }
 
 #education div:last-child {
@@ -286,7 +270,7 @@ section .experience .experience-description {
 }
 
 
-/*@media (max-width: 767px) {
+@media (max-width: 767px) {
   #wrapper {
     width: 90%;
     padding: 0 auto;
@@ -307,88 +291,3 @@ section .experience .experience-description {
     font-style: italic;
   }
 
-  #about {
-    position: absolute;
-    top: 100px;
-    left: 20px;
-    width: 400px;
-    padding-left: 10px ;
-  }
-
-  #competencies h3 {
-    border-right: none;
-    grid-area: h3;
-    position: relative;
-    margin-bottom: 20px;
-  }
-
-  #competencies {
-    display: grid;
-    grid-template-areas: 
-    'h3 h3'
-    'primary primary'
-    'secondary secondary';
-    width: 100%;
-  }
-
-  #competencies .skills {
-    margin-left: 0;
-  }
-
-  #competencies .skills-primary {
-    grid-area: primary;
-  }
-
-  #competencies .skills-secondary {
-    grid-area: secondary;
-  }
-
-  #experiences {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #experiences .experience {
-    padding-left: 0;
-  }
-
-  #experiences .experience h4 {
-    margin-top: 30px;
-  }
-
-  #experiences .experience .experience-details {
-    margin-left: auto;
-    margin-top: 30px;
-  }
-
-  #education {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #education .experience {
-    padding-left: 0;
-  }
-
-  #education .experience h4 {
-    margin-top: 30px;
-  }
-
-  #education .experience .experience-details {
-    margin-left: auto;
-    margin-top: 30px;
-  }
-
-  #hobbies {
-    flex-direction: column;
-    margin-top: 30px !important;
-  }
-
-  #hobbies h3 {
-    margin-bottom: 15px;
-  }
-
-  #contact .contacts {
-    justify-content: flex-start;
-  }
-}
