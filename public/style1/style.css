@@ -12,6 +12,9 @@ header div {
     padding-left: 10%;
     margin-bottom: 50px;
 }
+hgroup{
+    font-size: 31px;
+}
 
 #contact {
     position: absolute;
